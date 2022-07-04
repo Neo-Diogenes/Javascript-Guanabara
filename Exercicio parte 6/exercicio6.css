@@ -28,4 +28,12 @@ footer {
 
 }
 
+select{
+    width: 200px;
+    text-align: center;
+}
 
+option{
+    border: 1px solid red;
+    font-size: 1.4rem;
+}
