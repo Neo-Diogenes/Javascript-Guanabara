@@ -1,0 +1,15 @@
+
+//while
+var c = 1;
+while (c <= 6) {
+    console.log('Tudo bem?')
+    c++
+}
+
+//do while
+
+var b = 5;
+do {
+    console.log('Tudo ok?')
+    
+} while (b<=5);
