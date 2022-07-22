@@ -16,16 +16,18 @@
 
 <script> 
 
+addEventListener
+
 function verPais() {
 
     var local = window.document.querySelector('.pais')
     var lugar = window.document.querySelector('.lugar')
     var place = String(local.value)
     lugar.innerHTML = `Seu país selecionado foi: ${place}`
-if (place == 'Brasil') {
-    lugar.innerHTML += `<p>Você é brasileiro</p>`
+if (place !== 'Brasil') {
+    lugar.innerHTML += `<p>Você é estrangeiro</p>`
 } else {
-    lugar.innerHTML += `<p> Você é estrangeiro </p>`
+    lugar.innerHTML += `<p> Você é br </p>`
 }
 }
 

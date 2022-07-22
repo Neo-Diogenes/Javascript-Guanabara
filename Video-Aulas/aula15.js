@@ -1,24 +1,37 @@
-//let num = [8,7,1,3,2,9]
 
-//for (let pos = 0; pos < num.length; pos++) {
-   
- //  console.log(num[pos])
-   
+// let num = [2,4,8,4]
 
-//}
+// num[3]=7
 
-let valores = [8,7,1,3,2,9]
+// num.push(6)
 
-for(let pos in valores){
-console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
-}
+// console.log(`nosso vetor é o ${num.sort()}`)
 
 
-//indexOf para achar uma coisa no array
-let teste = valores.indexOf(2)
+// for(let pos=0; pos<num.length; pos++){
+//     console.log(num[pos])
+// }
 
-if (teste== -1) {
-         console.log('O valor não foi encontrado')
+let valores = [8,1,3,8,9,4,8]
+
+let coisas = ["amor, raiva, odio"]
+
+// console.log(valores)
+
+
+// for(let pos=0; pos <valores.length; pos++){
+//     console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
+// }
+
+// for (const key in coisas) {
+//     console.log(coisas[key])
+  
+// }
+
+var teste = valores.indexOf(8)
+
+if (teste == -1){
+    console.log('O valor não foi encontrado')
 } else {
-   console.log(`O valor está na posição ${teste}`)
+    console.log(`O valor está na posição ${teste}`)
 }
